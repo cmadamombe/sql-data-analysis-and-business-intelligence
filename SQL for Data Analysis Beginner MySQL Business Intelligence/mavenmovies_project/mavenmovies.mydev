@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), the Project File -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DatabaseProject Version="1.0.1" Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa">
+  <Provider Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa" />
+  <Include>
+    <File RelPath="final_project" Link=".\queries\Final Project.sql" />
+    <File RelPath="mid course project" Link=".\queries\Mid Course Project.sql" />
+    <File RelPath="queries" Link=".\queries\Agregate Functions.sql" />
+    <File RelPath="queries" Link=".\queries\CASE Pivoting SQL.sql" />
+    <File RelPath="queries" Link=".\queries\CASE_active_customers.sql" />
+    <File RelPath="queries" Link=".\queries\Customer IDs HAVING less than 15 rentals.sql" />
+    <File RelPath="queries" Link=".\queries\Group By rental duration.sql" />
+    <File RelPath="queries" Link=".\queries\Like Operator.sql" />
+    <File RelPath="queries" Link=".\queries\List of films in order.sql" />
+    <File RelPath="queries" Link=".\queries\Multi Condition Joins.sql" />
+    <File RelPath="queries" Link=".\queries\Multi Table Joins.sql" />
+    <File RelPath="" Link=".\mavenmovies.sql" />
+  </Include>
+  <Configurations Active="Default">
+    <Configuration Name="Default" CheckReferences="True" IgnoreErrors="False" OutputPath="" Target="" OutputType="SingleFile" KeepOriginalObjects="True" RecreateObjects="False" RecreateDatabase="False" ServerVersion="8.0.28" Database="mavenmovies" UseRegions="False" FullPaths="False" Definer="CURRENT_USER" ScriptDelimiter="$$" StorageEngine="INNODB" Collation="utf8mb4_0900_ai_ci" ConvertToLowercase="True" DefinerEffect="Keep" InnoDbDefaultRowFormat="dynamic" ServerTypeAttribute="MySql">
+      <ConnectionModel>
+        <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+        <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Character Set=utf8</PropertyValue>
+        <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+      </ConnectionModel>
+      <Build>
+        <File RelPath="" Name="mavenmovies.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Like Operator.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Group By rental duration.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Agregate Functions.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Customer IDs HAVING less than 15 rentals.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="List of films in order.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="CASE_active_customers.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="CASE Pivoting SQL.sql" BuildAction="Build" />
+        <File RelPath="mid course project" Name="Mid Course Project.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Multi Table Joins.sql" BuildAction="Build" />
+        <File RelPath="queries" Name="Multi Condition Joins.sql" BuildAction="Build" />
+        <File RelPath="final_project" Name="Final Project.sql" BuildAction="Build" />
+      </Build>
+    </Configuration>
+  </Configurations>
+</DatabaseProject>

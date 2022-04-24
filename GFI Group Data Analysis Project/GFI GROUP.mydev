@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), the Project File -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DatabaseProject Version="1.0.1" Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa">
+  <Provider Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa" />
+  <Include>
+    <File RelPath="SQL" Link=".\ACTIVE CLIENTS BY COUNTRY.sql" />
+    <File RelPath="" Link=".\gfigroup1_whmcs_db.sql" />
+  </Include>
+  <Configurations Active="Default">
+    <Configuration Name="Default" CheckReferences="True" IgnoreErrors="False" OutputPath="" Target="" OutputType="SingleFile" KeepOriginalObjects="True" RecreateObjects="False" RecreateDatabase="False" ServerVersion="10.3.34" Database="gfigroup1_whmcs_db" UseRegions="False" FullPaths="False" Definer="CURRENT_USER" ScriptDelimiter="$$" StorageEngine="INNODB" Collation="latin1_swedish_ci" ConvertToLowercase="False" DefinerEffect="Keep" InnoDbDefaultRowFormat="dynamic" ServerTypeAttribute="MariaDb">
+      <ConnectionModel>
+        <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+        <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=gfigroup1;Host=corporate.vip7.noc401.com;Database=gfigroup1_whmcs_db;Character Set=compatibility</PropertyValue>
+        <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+      </ConnectionModel>
+      <Build>
+        <File RelPath="" Name="gfigroup1_whmcs_db.sql" BuildAction="Build" />
+        <File RelPath="SQL" Name="ACTIVE CLIENTS BY COUNTRY.sql" BuildAction="Build" />
+      </Build>
+    </Configuration>
+  </Configurations>
+</DatabaseProject>

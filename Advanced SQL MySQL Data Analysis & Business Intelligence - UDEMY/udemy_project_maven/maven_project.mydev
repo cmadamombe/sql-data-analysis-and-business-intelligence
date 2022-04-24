@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), the Project File -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DatabaseProject Version="1.0.1" Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa">
+  <Provider Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa" />
+  <Include>
+    <File RelPath="Queries" Link=".\queries\Assignment 1_Site Traffic Breakdown.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 2_GSearch conversion rate.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 3_GSearch volume trends.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 5_weekly trends per device.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 6_Most Viewed Website Pages.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 7_Top Entry Pages AKA landing pages.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignment 8_Top Pages Part 2.sql" />
+    <File RelPath="Queries" Link=".\queries\Assignnment 4_Conversion rates by device type.sql" />
+    <File RelPath="Queries" Link=".\queries\CASE PIVOTING EXAMPLE 1.sql" />
+    <File RelPath="Queries" Link=".\queries\CONVERSIN RATE BY DEVICE.sql" />
+    <File RelPath="Queries" Link=".\queries\GROUP BY e.g 1.sql" />
+    <File RelPath="Queries" Link=".\queries\GROUP BY e.g 2.sql" />
+    <File RelPath="Queries" Link=".\queries\GROUP BY e.g 3.sql" />
+    <File RelPath="Queries" Link=".\queries\GROUP BY WITH DATES 2.sql" />
+    <File RelPath="Queries" Link=".\queries\GROUP BY WITH DATES.sql" />
+    <File RelPath="Queries" Link=".\queries\MY SQL TEMP TABLE_LANDING PAGE.sql" />
+    <File RelPath="Queries" Link=".\queries\TOP WEBSITE PAGES.sql" />
+    <File RelPath="" Link=".\order_item_refunds.Tables.sql" />
+    <File RelPath="" Link=".\order_items.Tables.sql" />
+    <File RelPath="" Link=".\orders.Tables.sql" />
+    <File RelPath="" Link=".\PostDeployment.sql" />
+    <File RelPath="" Link=".\PreDeployment.sql" />
+    <File RelPath="" Link=".\products.Tables.sql" />
+    <File RelPath="" Link=".\website_pageviews.Tables.sql" />
+    <File RelPath="" Link=".\website_sessions.Tables.sql" />
+  </Include>
+  <Configurations Active="Default">
+    <Configuration Name="Default" CheckReferences="True" IgnoreErrors="False" OutputPath="" Target="" OutputType="SingleFile" KeepOriginalObjects="True" RecreateObjects="False" RecreateDatabase="False" ServerVersion="8.0.28" Database="mavenfuzzyfactory" UseRegions="False" FullPaths="False" Definer="CURRENT_USER" ScriptDelimiter="$$" StorageEngine="INNODB" Collation="utf8mb4_0900_ai_ci" ConvertToLowercase="True" DefinerEffect="Keep" InnoDbDefaultRowFormat="dynamic" ServerTypeAttribute="MySql">
+      <ConnectionModel>
+        <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+        <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Character Set=utf8</PropertyValue>
+        <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+      </ConnectionModel>
+      <Build>
+        <File RelPath="" Name="PreDeployment.sql" BuildAction="Build" />
+        <File RelPath="" Name="website_sessions.Tables.sql" BuildAction="Build" />
+        <File RelPath="" Name="website_pageviews.Tables.sql" BuildAction="Build" />
+        <File RelPath="" Name="products.Tables.sql" BuildAction="Build" />
+        <File RelPath="" Name="order_item_refunds.Tables.sql" BuildAction="Build" />
+        <File RelPath="" Name="order_items.Tables.sql" BuildAction="Build" />
+        <File RelPath="" Name="orders.Tables.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="GROUP BY e.g 3.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="GROUP BY e.g 2.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="GROUP BY e.g 1.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="GROUP BY WITH DATES.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="GROUP BY WITH DATES 2.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="CONVERSIN RATE BY DEVICE.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="CASE PIVOTING EXAMPLE 1.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="TOP WEBSITE PAGES.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="MY SQL TEMP TABLE_LANDING PAGE.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 1_Site Traffic Breakdown.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 2_GSearch conversion rate.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 3_GSearch volume trends.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignnment 4_Conversion rates by device type.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 5_weekly trends per device.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 6_Most Viewed Website Pages.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 7_Top Entry Pages AKA landing pages.sql" BuildAction="Build" />
+        <File RelPath="Queries" Name="Assignment 8_Top Pages Part 2.sql" BuildAction="Build" />
+        <File RelPath="" Name="PostDeployment.sql" BuildAction="Build" />
+      </Build>
+    </Configuration>
+  </Configurations>
+</DatabaseProject>
