@@ -5,6 +5,7 @@
   <Provider Guid="59f90733-4d68-4fdf-82a7-f0fcbf5460aa" />
   <Include>
     <File RelPath="SQL" Link=".\ACTIVE CLIENTS BY COUNTRY.sql" />
+    <File RelPath="SQL" Link=".\WEEKLY TRANSACTIONS MADE BETWEEN SPECIFIED DATES.sql" />
     <File RelPath="" Link=".\gfigroup1_whmcs_db.sql" />
   </Include>
   <Configurations Active="Default">
@@ -17,6 +18,7 @@
       <Build>
         <File RelPath="" Name="gfigroup1_whmcs_db.sql" BuildAction="Build" />
         <File RelPath="SQL" Name="ACTIVE CLIENTS BY COUNTRY.sql" BuildAction="Build" />
+        <File RelPath="SQL" Name="WEEKLY TRANSACTIONS MADE BETWEEN SPECIFIED DATES.sql" BuildAction="Build" />
       </Build>
     </Configuration>
   </Configurations>
